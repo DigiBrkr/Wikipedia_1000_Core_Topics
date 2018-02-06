@@ -12,7 +12,7 @@ This tool uses a combination of Python 3 and and Bash scripting to do the follow
 ### Usage
 To download the pages:
 
-    ```
+
     #Make sure you do this in an directory with just the file
     #Be prepared to wait
     $ python3 top1000.py
@@ -26,7 +26,7 @@ To download the pages:
     Advertising
     Aeschylus
     #etc.
-    ```
+
   Once you're done, make sure to copy the Python script out of the folder with all the articles.
 
 To load the pages into your MediaWiki:
@@ -34,10 +34,10 @@ To load the pages into your MediaWiki:
 
     Now type the following:
 
-    ```
+
     #You may need to run these commands with root privileges depending on your system configuration.
     # chmod +X import.sh
     # ./import.sh
     #This command may take well over an hour depending on your computers CPU speed
     # php initSiteStats.php
-    ```
+    
