@@ -32,10 +32,10 @@ To download the pages:
 To load the pages into your MediaWiki:
 
 
-    1. Put the articles downloaded in the previous step in a directory in your home folder called `articles`.
-    2. Then, edit `import.sh` and replace `pi` in the section of the line `for file in /home/pi/articles/*` with the name of your home directory.
-    3. Next move the script into your MediaWiki installations `maintenance` directory. For me, that's `/var/www/html/wiki/maintenance/` but, that may be different for you so please check.
-    4. Now type the following:
+1. Put the articles downloaded in the previous step in a directory in your home folder called `articles`.
+2. Then, edit `import.sh` and replace `pi` in the section of the line `for file in /home/pi/articles/*` with the name of your home directory.
+3. Next move the script into your MediaWiki installations `maintenance` directory. For me, that's `/var/www/html/wiki/maintenance/` but, that may be different for you so please check.
+4. Now type the following:
 
 
     #You may need to run these commands with root privileges depending on your system configuration.
