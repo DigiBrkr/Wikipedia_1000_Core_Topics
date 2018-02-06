@@ -12,7 +12,7 @@ This tool uses a combination of Python 3 and and Bash scripting to do the follow
 ### Usage
 To download the pages:
 
-    ``` 
+    ```
     #Make sure you do this in an directory with just the file
     #Be prepared to wait
     $ python3 top1000.py
@@ -26,8 +26,8 @@ To download the pages:
     Advertising
     Aeschylus
     #etc.
-      ```
-    Once you're done, make sure to copy the Python script out of the folder with all the articles.
+    ```
+  Once you're done, make sure to copy the Python script out of the folder with all the articles.
 
 To load the pages into your MediaWiki:
     Put the articles downloaded in the previous step in a directory in your home folder called `articles`. Then, edit `import.sh` and replace `pi` in the section of the line `for file in /home/pi/articles/*` with the name of your home directory. Next move the script into your MediaWiki installations `maintenance` directory. For me, that's `/var/www/html/wiki/maintenance/` but, that may be different for you so please check.
