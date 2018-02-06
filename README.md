@@ -12,21 +12,21 @@ This tool uses a combination of Python 3 and and Bash scripting to do the follow
 ### Usage
 To download the pages:
 
-
-    #Make sure you do this in an directory with just the file
-    #Be prepared to wait
-    $ python3 top1000.py
-      Abkhazia
-      Abortion
-      Abraham Lincoln
-      Actinium
-      Adam Smith
-      Addiction
-      Adolf Hitler
-      Advertising
-      Aeschylus
-    #etc.
-
+``` bash
+#Make sure you do this in an directory with just the file
+#Be prepared to wait
+$ python3 top1000.py
+  Abkhazia
+  Abortion
+  Abraham Lincoln
+  Actinium
+  Adam Smith
+  Addiction
+  Adolf Hitler
+  Advertising
+  Aeschylus
+#etc.
+```
   Once you're done, make sure to copy the Python script out of the folder with all the articles.
 
 To load the pages into your MediaWiki:
