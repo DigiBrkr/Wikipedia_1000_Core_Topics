@@ -31,7 +31,6 @@ To download the pages:
 
 To load the pages into your MediaWiki:
     Put the articles downloaded in the previous step in a directory in your home folder called `articles`. Then, edit `import.sh` and replace `pi` in the section of the line `for file in /home/pi/articles/*` with the name of your home directory. Next move the script into your MediaWiki installations `maintenance` directory. For me, that's `/var/www/html/wiki/maintenance/` but, that may be different for you so please check.
-
     Now type the following:
 
 
@@ -40,4 +39,3 @@ To load the pages into your MediaWiki:
     # ./import.sh
     #This command may take well over an hour depending on your computers CPU speed
     # php initSiteStats.php
-    
