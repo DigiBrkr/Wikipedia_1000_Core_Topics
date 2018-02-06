@@ -37,9 +37,10 @@ To load the pages into your MediaWiki:
 3. Next move the script into your MediaWiki installations `maintenance` directory. For me, that's `/var/www/html/wiki/maintenance/` but, that may be different for you so please check.
 4. Now type the following:
 
-
-    #You may need to run these commands with root privileges depending on your system configuration.
-    # chmod +X import.sh
-    #This command may take well over an hour depending on your computers CPU speed
-    # ./import.sh
-    # php initSiteStats.php
+``` bash
+#You may need to run these commands with root privileges depending on your system configuration.
+# chmod +X import.sh
+#This command may take well over an hour depending on your computers CPU speed
+# ./import.sh
+# php initSiteStats.php
+```
