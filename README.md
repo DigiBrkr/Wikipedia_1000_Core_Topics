@@ -9,10 +9,10 @@ This tool uses a combination of Python 3 and and Bash scripting to do the follow
 2. Write each of those ~1,000 articles to a MediaWiki friendly XML format
 3. Loads the articles into a MediaWiki using a Bash script.
 
-###Usage
+### Usage
 To download the pages:
 
-    ```bash
+    ``` shell
     #Make sure you do this in an directory with just the file
     #Be prepared to wait
     $ python3 top1000.py
@@ -34,7 +34,7 @@ To load the pages into your MediaWiki:
 
     Now type the following:
 
-    ```bash
+    ``` shell
     #You may need to run these commands with root privileges depending on your system configuration.
     # chmod +X import.sh
     # ./import.sh
