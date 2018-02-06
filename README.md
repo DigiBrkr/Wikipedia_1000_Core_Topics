@@ -39,8 +39,8 @@ To load the pages into your MediaWiki:
 
 ``` bash
 #You may need to run these commands with root privileges depending on your system configuration.
-# chmod +X import.sh
+ chmod +X import.sh
 #This command may take well over an hour depending on your computers CPU speed
-# ./import.sh
-# php initSiteStats.php
+ ./import.sh
+ php initSiteStats.php
 ```
